@@ -1,0 +1,1004 @@
+[33m[+] log.context.debug: False[0m
+[33m[+] AdventOfCode 2020 - day 7 part A[0m
+[33m[+] 23857 for 982 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 23A49 for 485 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 23AK6 for 59 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 246T8 for 674 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 25K9A for 336 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 267J9 for 69 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 274TJ for 506 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 27JK4 for 854 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 28TQ3 for 668 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 2T836 for 406 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 2T987 for 908 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 2J57A for 828 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 2J894 for 918 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 2JQ4T for 611 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 2QT39 for 864 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 2QA3K for 841 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 2K895 for 152 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 2K935 for 987 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 2AK5J for 684 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 32T54 for 321 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 32J56 for 230 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 34KA2 for 286 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 35JT4 for 784 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 372KQ for 357 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 37Q54 for 592 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 37AKJ for 49 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 382Q9 for 532 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 3958K for 683 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 3T28J for 754 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 3J6AQ for 464 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 3QT42 for 782 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 3K48Q for 239 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 3KQ45 for 362 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 3A69Q for 164 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 43687 for 834 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 43QK6 for 193 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 45738 for 293 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 45J97 for 18 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 45QKT for 453 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 45K2A for 728 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 468A3 for 185 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 468A7 for 517 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 48237 for 403 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 4T28A for 608 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 4Q3T8 for 46 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 4KJ7T for 223 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 4KQJ3 for 250 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 4ATJQ for 991 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 4AKQJ for 748 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 529J8 for 290 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 53697 for 370 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 53K9Q for 542 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 53A87 for 805 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 542A8 for 496 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 56AQ4 for 87 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 57T63 for 41 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 57JQ9 for 969 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 5842T for 326 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 58T72 for 690 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 592TA for 371 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 59T86 for 866 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 59TA7 for 238 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 59JT4 for 303 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 5T2AJ for 11 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 5T84Q for 839 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 5TJ48 for 287 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 5J2Q8 for 221 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 5J9QT for 926 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 5QT27 for 767 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 5K72J for 378 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 642K5 for 511 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 647T3 for 310 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 652A9 for 340 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 657KA for 199 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 65AT2 for 565 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 67J42 for 393 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 683T4 for 459 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 683A7 for 390 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 689KT for 971 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 68Q2T for 923 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 69TQ5 for 899 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 69KQ7 for 594 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 7398Q for 314 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 74T8A for 732 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 75394 for 17 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 75J92 for 577 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 75A42 for 234 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 76328 for 481 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 764AT for 963 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 78J49 for 946 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 7T42A for 402 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 7TQ85 for 360 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 7TK93 for 596 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 7J45Q for 996 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 7Q5A9 for 361 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 7K248 for 704 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 7K8Q3 for 902 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 7KQJ6 for 736 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 7A965 for 307 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 829JK for 633 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 82Q5A for 558 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 8356T for 644 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 836KJ for 318 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 836AT for 770 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 83JTK for 757 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 84A9K for 901 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 853K6 for 873 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 87J3Q for 540 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 89K36 for 66 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 8TKQ3 for 712 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 8TA26 for 214 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 8K53Q for 687 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 8A7TK for 650 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 92A76 for 334 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 93QK2 for 20 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 96845 for 992 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 97T2J for 163 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 97T3Q for 58 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 97J3Q for 932 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 97A38 for 448 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 982K7 for 614 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 9T623 for 862 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 9Q24T for 967 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 9K642 for 82 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 9K654 for 241 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 9K83J for 469 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] T27J3 for 110 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] T4578 for 198 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] T59K7 for 471 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] T5Q82 for 423 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] T5A86 for 831 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] T738A for 847 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] T7689 for 599 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] T9736 for 671 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] T9Q7K for 275 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] TJ269 for 190 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] TJ54A for 21 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] TJAQ2 for 476 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] TK2JA for 65 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] TK385 for 457 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] TA593 for 745 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] J3A9K for 956 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] J539K for 781 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] J67K5 for 697 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] J85A9 for 260 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] J9Q85 for 187 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] JT49K for 227 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] JQ4TK for 791 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] JQK95 for 941 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] Q2457 for 984 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] Q254J for 590 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] Q32A6 for 246 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] Q47A9 for 368 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] Q598T for 794 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] Q634A for 408 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] Q8TJ7 for 389 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] Q9482 for 417 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] Q9J47 for 617 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] Q9J82 for 851 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] QTAJK for 351 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] QJ8TK for 440 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] QA958 for 642 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K2J53 for 537 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K32JA for 79 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K3A7T for 980 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K4289 for 211 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K5J49 for 172 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K752A for 412 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K83AJ for 379 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K856J for 605 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K864J for 676 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K943A for 135 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K9T38 for 377 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] K9T43 for 968 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] KJ4Q6 for 424 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] KQ3A8 for 237 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] KQ965 for 675 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] KQT28 for 826 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] KQT58 for 203 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] KA5J6 for 621 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] A4J57 for 983 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] A6T95 for 122 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] A7J9K for 907 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] A8JK4 for 483 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] A8K24 for 530 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] A92T4 for 388 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] AQ748 for 719 [ defaultdict(<class 'int'>, {1: 5, 5: 0, 4: 0, 3: 0, 2: 0}) ][0m
+[33m[+] 22694 for 574 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 2294J for 811 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 22A7J for 490 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 25J5Q for 729 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 292J3 for 912 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 2TT6Q for 376 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 2J886 for 328 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 2QK99 for 752 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 2QA2J for 482 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 2K352 for 871 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 2K77J for 292 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 32257 for 117 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 32A44 for 726 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 33QTJ for 179 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 34647 for 579 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 34K37 for 597 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 34A73 for 694 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 35239 for 679 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 369AA for 350 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 36Q53 for 916 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3753K for 700 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3T763 for 139 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3TTA7 for 637 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3J988 for 420 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3Q55K for 346 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3QQT8 for 820 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3KT7K for 588 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3A252 for 353 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3AT7A for 344 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3AA6J for 153 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 43QTT for 822 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 442QA for 761 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 442A6 for 989 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 44K9J for 853 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 45T49 for 466 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 45A46 for 56 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 46J88 for 460 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4947J for 1 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 495K9 for 848 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4T5J5 for 9 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4T73T for 595 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4J734 for 504 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4J824 for 812 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4J8JK for 387 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4JQ4T for 268 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4JA45 for 878 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4JA46 for 100 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4Q492 for 394 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4K5J5 for 587 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4K66J for 832 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4A7T4 for 299 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 522JT for 855 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 523Q2 for 501 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 52JTT for 619 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 53425 for 680 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 53447 for 562 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 535A6 for 765 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 537QQ for 546 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5524A for 270 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 55672 for 106 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 56884 for 67 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 57T67 for 333 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 57KJ5 for 860 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5TT7K for 458 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5TT9J for 5 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5JT59 for 173 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5JK22 for 341 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5KJQQ for 477 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5AQAT for 749 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 63679 for 974 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 64323 for 646 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 657TT for 869 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 665Q3 for 232 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 66K32 for 531 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 67J97 for 849 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 67K56 for 645 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 68536 for 108 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 686AJ for 885 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 688J5 for 959 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 6T3K3 for 384 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 6T5J5 for 910 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 6T5KT for 348 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 6J4AA for 783 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 6J7Q6 for 311 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 6JJ24 for 131 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 6Q833 for 23 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 6QJJ7 for 889 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 6AQ8Q for 636 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 72K75 for 727 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 733AT for 965 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 73T23 for 713 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 74756 for 627 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 74J48 for 730 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 754JJ for 643 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7729T for 519 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 776K5 for 509 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 77T89 for 165 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 77JT6 for 591 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 78829 for 867 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 79JK9 for 447 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7T656 for 488 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7T98T for 202 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7TT96 for 610 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7J724 for 686 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7J729 for 763 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7Q7A5 for 810 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7A988 for 960 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7AATK for 666 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 82243 for 125 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 82247 for 300 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 823QQ for 707 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 854Q8 for 186 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 85572 for 658 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 855J9 for 13 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 85T7T for 753 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 866JK for 566 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 868T9 for 641 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 87535 for 266 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 875J5 for 33 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 87AAJ for 297 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8854J for 141 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 886AK for 525 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 88A57 for 487 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 89Q68 for 263 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8TK44 for 896 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8J5QQ for 486 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8J8TA for 158 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8Q737 for 405 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8KJ33 for 369 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8A4J8 for 78 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8A5J5 for 624 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 92334 for 995 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9298J for 994 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9379A for 788 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 93964 for 8 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 94847 for 947 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 95586 for 70 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9629K for 526 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 96554 for 769 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 966A3 for 662 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 96JKK for 585 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 98337 for 28 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 98TQT for 492 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9J379 for 721 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9Q6TT for 792 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9QQ32 for 116 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9QQK2 for 83 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9K225 for 479 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9A5AJ for 373 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T25QQ for 264 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T2QKK for 747 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T32Q2 for 425 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T4435 for 259 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T554K for 975 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T5Q25 for 359 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T6365 for 883 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T85KT for 613 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T9TQ4 for 178 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TT739 for 654 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TTQ6A for 682 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TQ722 for 976 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TK32T for 138 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TKTJA for 966 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TKQ7T for 320 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TKAT6 for 768 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TA797 for 72 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TA94A for 951 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J2767 for 737 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J334K for 520 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J3626 for 696 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J3977 for 249 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J3Q44 for 159 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J45TJ for 98 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J464K for 149 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J4JT3 for 86 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J4AAK for 514 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J68QJ for 661 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J6JA9 for 634 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J7872 for 63 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J7TTA for 766 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J87Q7 for 800 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J8T77 for 780 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J93J5 for 948 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J9T98 for 518 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J9AA4 for 827 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JT4JA for 808 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JT9AA for 396 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JTQT6 for 473 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JTKK5 for 724 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JJTA8 for 581 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JQ252 for 793 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JK84K for 19 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JKAQK for 184 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JKAK6 for 294 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q22A9 for 803 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q424T for 436 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q4649 for 456 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q4K66 for 798 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q56Q8 for 194 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q5856 for 628 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q64JQ for 32 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q7793 for 219 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q9K2K for 354 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QT4AT for 380 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QT5Q6 for 433 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QT6T5 for 265 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QJ2AA for 813 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QJQ37 for 94 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QQJ6A for 702 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QQJ8T for 349 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QQA26 for 625 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QA8A9 for 622 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K2J42 for 897 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K3JTJ for 283 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K3JK9 for 40 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K42K7 for 846 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K452K for 315 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K523K for 465 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K5K4J for 620 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K7Q76 for 115 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K7AKJ for 670 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K8QK4 for 893 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K93A3 for 886 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K99QT for 53 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KT7KJ for 140 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KJ4K3 for 480 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KJA2A for 95 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KQAA5 for 801 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KK29T for 200 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KKAJT for 905 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KAK52 for 952 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KAA2T for 109 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A266J for 709 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A26K6 for 816 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A2KK4 for 762 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A334J for 931 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A4J24 for 444 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A5JJ3 for 652 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A5AQ9 for 276 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A6764 for 105 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A6T96 for 25 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A7297 for 593 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A7355 for 950 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A7JA9 for 582 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A85JJ for 890 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A8TAJ for 73 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A97Q7 for 295 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A9896 for 601 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A9KA4 for 649 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] AJ79J for 978 [ defaultdict(<class 'int'>, {1: 3, 2: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] AJKAT for 872 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] AJA53 for 88 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] AJAKQ for 829 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] AA5J4 for 638 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] AA84J for 541 [ defaultdict(<class 'int'>, {2: 1, 1: 3, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 224KK for 584 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 22A88 for 986 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 24T4T for 291 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 25577 for 261 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 25T25 for 381 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 25QQ5 for 807 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 26446 for 132 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 288QQ for 602 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 29889 for 796 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 2T332 for 609 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 2T3T3 for 253 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 2J233 for 630 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 2A662 for 48 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 32329 for 330 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3355J for 308 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3366T for 449 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 337A7 for 575 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 34994 for 880 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 37273 for 85 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 37K73 for 631 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3883Q for 421 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 39229 for 655 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 393K9 for 192 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 39898 for 301 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3Q322 for 124 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3KQ3K for 6 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3A73A for 961 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 3AA38 for 343 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4242J for 648 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 43432 for 118 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4455J for 723 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 44JQQ for 240 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 44Q8Q for 569 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4774J for 430 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 48843 for 279 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 488A4 for 62 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4T4T6 for 366 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4T4TQ for 455 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4K74K for 76 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 4KKJ4 for 258 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 522J5 for 272 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 53356 for 760 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 55244 for 714 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 55344 for 414 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 55KQK for 551 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5656K for 478 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 56576 for 604 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 59495 for 962 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 599QQ for 442 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5J7J5 for 121 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5K5QQ for 629 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5A35A for 534 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 5A44A for 900 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 62562 for 364 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 62672 for 90 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 62TT6 for 742 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 64556 for 210 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 655AA for 217 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 665JJ for 431 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 66828 for 242 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 66JAA for 133 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 67276 for 233 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 67Q7Q for 426 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 696J9 for 498 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 69965 for 824 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 6T565 for 182 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 6J767 for 409 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 72Q72 for 236 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 733J7 for 156 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 74K74 for 484 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 799J7 for 755 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 79KK7 for 933 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 79KK9 for 818 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7T6T6 for 302 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7Q7QJ for 102 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7Q97Q for 3 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7K7K8 for 204 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7KK76 for 146 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 7A7TA for 979 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 82338 for 586 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8585J for 502 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 86446 for 892 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 87Q87 for 375 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 88636 for 386 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8866J for 383 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 898QQ for 701 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8T5T8 for 443 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8TKTK for 418 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 8J8KJ for 522 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 92269 for 664 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9229K for 708 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 922TT for 505 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 92Q9Q for 665 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 95665 for 516 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 96496 for 657 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 96776 for 81 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 977K9 for 552 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 979QQ for 817 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9T29T for 416 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9TT33 for 874 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9J889 for 257 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9JJ9K for 699 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9JQJQ for 710 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9Q3Q9 for 358 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9QQ94 for 452 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9KA9K for 27 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9A66A for 168 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9A6A9 for 438 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9A9QQ for 224 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9A9A5 for 689 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 9AA49 for 137 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T22KK for 651 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T3939 for 363 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] T989T for 557 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TT669 for 114 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TTJ77 for 935 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TTJJ8 for 213 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TTKJK for 462 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TTAA5 for 911 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TQQ44 for 413 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TQQ77 for 4 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TK2T2 for 790 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TK55T for 513 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TKK88 for 785 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TKKQQ for 10 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TA55A for 278 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] TAAJJ for 120 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J29J9 for 57 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J2KJ2 for 533 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J3344 for 450 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J3939 for 262 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J5665 for 155 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J5A5J for 296 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J636J for 499 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J822J for 306 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J8338 for 229 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] J99TT for 938 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JTJ2T for 779 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JQQ22 for 470 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JKAKA for 538 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] JAJA5 for 920 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q3Q77 for 954 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q5445 for 945 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q58Q5 for 235 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q6868 for 773 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q6Q33 for 837 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q6Q69 for 64 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q7373 for 775 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] Q9KK9 for 255 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QQ242 for 870 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QQ3J3 for 835 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QQ443 for 319 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QQA9A for 673 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QK4KQ for 324 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QKKQ8 for 97 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QAQTT for 731 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] QAQJA for 997 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K2KQ2 for 572 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K5454 for 439 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K575K for 435 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K5K5J for 937 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K8K58 for 750 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K99K2 for 777 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] K9KJJ for 919 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KJJK8 for 692 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KJKJT for 419 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KK636 for 799 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KKT3T for 197 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] KA4A4 for 1000 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A22AK for 555 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A4JA4 for 515 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A8TA8 for 463 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A8KK8 for 96 [ defaultdict(<class 'int'>, {1: 1, 2: 2, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A8A89 for 725 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] A9A93 for 112 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] ATJAT for 77 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] AJ77A for 739 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] AKK4A for 861 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] AA226 for 943 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] AA858 for 695 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] AA9Q9 for 868 [ defaultdict(<class 'int'>, {2: 2, 1: 1, 5: 0, 4: 0, 3: 0}) ][0m
+[33m[+] 22234 for 717 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 222J9 for 722 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 22333 for 771 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 22882 for 189 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 22T2T for 606 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 22TTT for 833 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 22A24 for 600 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 22AAA for 154 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 25444 for 705 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 26262 for 930 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 262Q2 for 616 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 26J66 for 188 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 26A22 for 220 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 27772 for 161 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 29299 for 495 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 299Q9 for 437 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 2T272 for 91 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 2JJ22 for 468 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 2Q2Q2 for 92 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 2K242 for 335 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 2K2K2 for 922 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 2KAKK for 561 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 322J2 for 716 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 33237 for 640 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 333TT for 15 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 333JJ for 195 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 336T3 for 400 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 33853 for 280 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 33TTT for 988 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 33Q36 for 183 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 33KK3 for 277 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 34443 for 208 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 35535 for 510 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 36633 for 735 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 36933 for 543 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 36J33 for 245 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 37337 for 607 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 37747 for 612 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 37J77 for 207 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 39929 for 503 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 39959 for 887 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 3999K for 407 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 3TT2T for 80 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 3J337 for 879 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 3Q3Q3 for 559 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 43343 for 958 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 44294 for 914 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 44423 for 809 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 4442K for 429 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 444AK for 929 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 44745 for 34 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 44777 for 215 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 44999 for 461 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 44Q48 for 524 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 45544 for 838 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 45585 for 119 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 46696 for 316 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 4744T for 909 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 474K4 for 970 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 47767 for 454 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 48848 for 500 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 4T4T4 for 563 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 4J449 for 844 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 4JJJ4 for 148 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 4Q4Q4 for 305 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 4KK5K for 660 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 4KKKA for 30 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 4A44J for 201 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 4A4A4 for 356 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 4A4AA for 924 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 4AAKA for 254 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 52252 for 391 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 52545 for 570 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 5444A for 392 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 55522 for 256 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 55537 for 573 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 55JJ5 for 653 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 55K5K for 523 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 5655J for 977 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 57455 for 355 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 57557 for 151 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 585T5 for 744 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 5T955 for 888 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 5K855 for 101 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 5KK6K for 274 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 65565 for 451 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 65566 for 150 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 66628 for 758 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 66684 for 171 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 66767 for 571 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 66T6K for 127 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 66QQQ for 942 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 66A6J for 881 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 67767 for 703 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 6888J for 14 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 6T4TT for 44 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 6T6J6 for 583 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 6TT6T for 36 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 6ATTT for 175 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 72227 for 317 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 72767 for 298 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 733T3 for 746 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 73797 for 672 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 73933 for 857 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 77373 for 472 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 7757J for 247 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 777T3 for 786 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 777JQ for 12 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 777QA for 840 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 778J7 for 329 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 77KK7 for 397 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 77A76 for 167 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 7888K for 45 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 79QQQ for 26 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 79K77 for 39 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 7T577 for 313 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 7J277 for 850 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 7Q77Q for 927 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 7K666 for 107 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 7KJKK for 180 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 83883 for 639 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 84288 for 428 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 8444A for 913 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 84484 for 271 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 84Q88 for 863 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 85558 for 216 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 86898 for 681 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 87277 for 347 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 87877 for 104 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 87977 for 205 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 88328 for 934 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 88483 for 225 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 88485 for 160 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 88787 for 491 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 88855 for 282 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 8885Q for 804 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 8889Q for 508 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 888J5 for 422 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 88928 for 663 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 88999 for 550 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 89889 for 93 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 8T488 for 553 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 8T6TT for 145 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 8J88T for 738 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 8KA88 for 973 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 92229 for 842 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 93339 for 55 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 93399 for 567 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 94448 for 52 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 9555Q for 309 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 95595 for 802 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 95K99 for 174 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 96299 for 659 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 96T66 for 999 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 97977 for 29 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 98885 for 231 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 9949Q for 42 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 99797 for 228 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 999TK for 288 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 999JJ for 312 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 999AA for 170 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 99T29 for 776 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 99TT9 for 985 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 99J97 for 427 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 99KK9 for 212 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 9TTTJ for 367 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 9J969 for 564 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 9J998 for 964 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 9Q99Q for 787 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 9QQ4Q for 647 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 9A6AA for 706 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 9A777 for 269 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 9ATAA for 434 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] 9AAJA for 733 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] T333J for 527 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] T4TAT for 589 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] T5545 for 222 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] T666T for 51 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] T888T for 399 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] T88K8 for 191 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] T8T8T for 352 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] T8TT4 for 128 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] TT2AT for 993 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] TT8T2 for 877 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] TT8T9 for 548 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] TT99T for 84 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] TTT44 for 244 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] TTTA8 for 2 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] TTQQQ for 859 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] TJTT6 for 836 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] TKT6T for 401 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] TKTKT for 144 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J2KKK for 61 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J2AAA for 331 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J3332 for 635 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J4434 for 332 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J444J for 157 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J4JJ8 for 60 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] J55T5 for 169 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J55Q5 for 549 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J5QQQ for 936 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J66J6 for 568 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J777A for 626 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J77J7 for 345 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] J8J88 for 467 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] JTTT3 for 990 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] JTTT7 for 576 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] JTTTA for 795 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] JTTJT for 47 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] JJJ34 for 547 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] JJJ7A for 382 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] JJJQ9 for 441 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] JQ6QQ for 284 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] JQQJQ for 560 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] JK555 for 103 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] Q2QQJ for 797 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] Q3QQ9 for 677 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] Q3AAA for 474 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] Q4QQ4 for 162 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] Q555A for 446 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] Q5855 for 955 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] Q5Q55 for 917 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] Q6668 for 740 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] Q777K for 251 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] Q7Q7Q for 325 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] Q99QQ for 415 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] Q9QQJ for 7 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] QTT9T for 304 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] QQ3Q3 for 113 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] QQ5Q5 for 16 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] QQ89Q for 243 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] QQJQ8 for 445 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] QQKKQ for 71 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] QQA7Q for 134 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] K2KK2 for 981 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] K3533 for 693 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] K38KK for 50 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] K5666 for 819 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] K666K for 940 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] K6K6K for 75 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] K77KK for 31 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] K8K88 for 815 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] KTTT4 for 22 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] KTK2K for 267 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] KJKJK for 939 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] KJAKK for 129 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] KQQ8Q for 111 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] KK4K3 for 339 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] KK5JK for 898 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] KK5K5 for 556 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] KK88K for 521 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] KKTKQ for 289 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] KKJQK for 852 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] A2555 for 395 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] A4A5A for 529 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] A6AA6 for 176 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] A7A77 for 338 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] A8858 for 196 [ defaultdict(<class 'int'>, {1: 2, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] A888A for 528 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] A8AA3 for 535 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] A9A9A for 126 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] ATTAA for 903 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] AJAJA for 99 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] AQQQA for 688 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] AQQAA for 136 [ defaultdict(<class 'int'>, {3: 1, 2: 1, 5: 0, 4: 0}) ][0m
+[33m[+] AQAJA for 691 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] AKKKA for 43 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] AKA5A for 489 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] AA333 for 130 [ defaultdict(<class 'int'>, {2: 1, 3: 1, 5: 0, 4: 0}) ][0m
+[33m[+] AA3A5 for 327 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] AA4AT for 218 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] AA9A2 for 252 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] AAJ3A for 743 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] AAJ8A for 814 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] AAQA6 for 904 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] AAA7K for 949 [ defaultdict(<class 'int'>, {3: 1, 1: 2, 5: 0, 4: 0}) ][0m
+[33m[+] 2222T for 882 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 2222J for 972 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 2222K for 432 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 22262 for 507 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 22822 for 734 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 25222 for 374 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 25555 for 632 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 29999 for 830 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 2TTTT for 142 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 2KKKK for 494 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 2A222 for 603 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 2AAAA for 404 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 33323 for 858 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 33335 for 35 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 33336 for 957 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 33373 for 906 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 33393 for 928 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 33433 for 884 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 33Q33 for 756 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 33A33 for 711 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 35555 for 166 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 3T333 for 806 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 3J333 for 544 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 3AAAA for 273 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 44424 for 891 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 44434 for 953 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 44445 for 578 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 44484 for 411 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 44494 for 759 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 44T44 for 894 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 47444 for 539 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 4J444 for 921 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 4A444 for 698 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 55554 for 789 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 55595 for 821 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 555J5 for 226 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 55655 for 372 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 55855 for 718 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 55Q55 for 875 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 58888 for 778 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 5QQQQ for 618 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 62666 for 669 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 66646 for 493 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 66656 for 365 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 66663 for 385 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 6666Q for 410 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 66J66 for 720 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 69666 for 825 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 6TTTT for 876 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 73777 for 248 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 75555 for 772 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 77277 for 843 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 77767 for 774 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 77778 for 38 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 7777T for 915 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 777J7 for 398 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 777A7 for 24 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 77K77 for 656 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 78888 for 123 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 7QQQQ for 322 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 84888 for 865 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 86888 for 685 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 888J8 for 580 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 8T888 for 598 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 98888 for 337 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] 99699 for 741 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 99799 for 856 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 99989 for 845 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 999K9 for 68 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 9J999 for 545 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] 9Q999 for 281 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] TT3TT for 147 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] TT8TT for 206 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] TTT4T for 177 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] TTT5T for 209 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] TTTT7 for 998 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] TTTT9 for 74 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] TTTTJ for 944 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] TTTKT for 536 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] TTQTT for 554 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] TAAAA for 475 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] J8JJJ for 623 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] JAAAA for 715 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] QQJQQ for 342 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] QQQQ3 for 751 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] QQKQQ for 667 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] QAQQQ for 925 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] K4KKK for 143 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] KK7KK for 37 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] KKJKK for 497 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] KKK8K for 285 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] KKKKT for 678 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] A5555 for 615 [ defaultdict(<class 'int'>, {1: 1, 4: 1, 5: 0}) ][0m
+[33m[+] AQAAA for 54 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] AKAAA for 323 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] AA7AA for 89 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] AA8AA for 895 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] AA9AA for 823 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] AAA6A for 181 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] AAAA5 for 764 [ defaultdict(<class 'int'>, {4: 1, 1: 1, 5: 0}) ][0m
+[33m[+] JJJJJ for 512 [ defaultdict(<class 'int'>, {5: 1}) ][0m
+[33m[+] [982, 970, 177, 2696, 1680, 414, 3542, 6832, 6012, 4060, 9988, 9936, 11934, 8554, 12960, 13456, 2584, 17766, 12996, 6420, 4830, 6292, 18032, 8568, 14800, 1274, 14364, 19124, 21866, 13920, 24242, 7648, 11946, 5576, 29190, 6948, 10841, 684, 17667, 29120, 7585, 21714, 17329, 26752, 2070, 10258, 11750, 47568, 36652, 14500, 18870, 28184, 42665, 26784, 4785, 2296, 55233, 18908, 40710, 22260, 52826, 14756, 19089, 704, 54535, 18942, 14807, 62968, 52923, 26460, 36281, 22320, 24820, 14726, 42375, 29868, 35343, 30420, 76709, 73840, 72819, 48708, 26062, 61488, 1445, 49622, 20358, 42328, 85707, 85140, 36582, 33120, 55428, 93624, 34295, 67584, 87494, 72128, 30393, 63300, 56358, 65688, 32754, 80080, 79485, 95506, 93411, 58320, 7194, 78320, 23754, 76944, 73450, 38076, 2300, 115072, 19071, 6844, 110908, 53760, 74294, 105164, 118941, 10168, 30125, 59094, 13970, 25344, 60759, 54990, 108861, 111804, 79667, 89914, 37125, 25840, 2877, 65688, 9035, 63980, 105045, 135752, 111683, 100368, 37700, 27302, 33369, 117068, 140209, 147600, 89090, 37392, 56304, 122276, 63240, 60684, 65469, 97486, 135309, 56160, 70840, 104004, 87531, 12956, 161700, 35026, 28724, 69216, 64051, 102850, 115596, 23220, 65221, 168432, 74200, 41712, 119475, 147028, 36337, 111780, 177923, 22204, 165981, 88872, 98050, 72168, 134453, 107912, 153279, 93100, 139239, 175104, 72568, 63632, 146640, 94472, 171587, 57816, 23283, 145200, 35979, 116958, 121191, 141576, 139195, 72100, 189612, 145600, 29051, 133770, 88620, 73352, 174660, 125832, 75895, 74304, 33201, 179196, 166659, 217580, 188513, 103452, 12488, 103040, 225, 191648, 2043, 135660, 115416, 186760, 89397, 62176, 204574, 23400, 92590, 138532, 197184, 71162, 204345, 120240, 149179, 164560, 136566, 186660, 133770, 66420, 26182, 16616, 82917, 215000, 114958, 1260, 43769, 86614, 121635, 191744, 250318, 166668, 225071, 60320, 138591, 222438, 169635, 28512, 234525, 255094, 102528, 243880, 93612, 211410, 84281, 35632, 6279, 243586, 174900, 200652, 267305, 198214, 174933, 204400, 180683, 146358, 144047, 46860, 168435, 247962, 128289, 140544, 58378, 176900, 199626, 222796, 237330, 282240, 196470, 37000, 89100, 210686, 55614, 197400, 3913, 227406, 171498, 194864, 81130, 10098, 91179, 43428, 162225, 150970, 81793, 279552, 152118, 49612, 127575, 116604, 24726, 198432, 317405, 318080, 252948, 2576, 305881, 22680, 170950, 250694, 216474, 191880, 9212, 162360, 238651, 262944, 38628, 27722, 160465, 125328, 88968, 252486, 144075, 88060, 332475, 122778, 302869, 210872, 61410, 226284, 236654, 339648, 48162, 338100, 112320, 270336, 25416, 336654, 261635, 185120, 248472, 89142, 57081, 35280, 53789, 31132, 186582, 240604, 231410, 23058, 281122, 294400, 287820, 350760, 192178, 307644, 301384, 148104, 177375, 272224, 219037, 299754, 7201, 69920, 112014, 306746, 166988, 175104, 307230, 74884, 243036, 12416, 85191, 138060, 148580, 169736, 104145, 320322, 37130, 277992, 138553, 248750, 248178, 358800, 113483, 16080, 340938, 127260, 188325, 251720, 46805, 273360, 365237, 363260, 21783, 57680, 198240, 39330, 332415, 83200, 377385, 397936, 45671, 297780, 343536, 321564, 393813, 188256, 277100, 117576, 44835, 10700, 254397, 408500, 250842, 384480, 31609, 128030, 261435, 282964, 427386, 381936, 38632, 364760, 281358, 239122, 258712, 437784, 129495, 116406, 170307, 361536, 59268, 270900, 358996, 275268, 114609, 286020, 21840, 150480, 140756, 205642, 263925, 404800, 39185, 291522, 194923, 303920, 89280, 140266, 57908, 2808, 450709, 161210, 305208, 55696, 341979, 113760, 270275, 204680, 133083, 29636, 175314, 218400, 36556, 124356, 131376, 367840, 346290, 201204, 268337, 233264, 295356, 471380, 217022, 59532, 310097, 263796, 445500, 180544, 44730, 369516, 104790, 108500, 215931, 121484, 66899, 117432, 215130, 251988, 417768, 92456, 208181, 120360, 79716, 247808, 387315, 479562, 421270, 155832, 52734, 1554, 105876, 75920, 510059, 305892, 262546, 467408, 196875, 203036, 201841, 370128, 234347, 221540, 277182, 353248, 377364, 269670, 355775, 276576, 352809, 43578, 297528, 441180, 225056, 473708, 139551, 380256, 386950, 195468, 247244, 14796, 92232, 240900, 123424, 380328, 75761, 360654, 201465, 309692, 63498, 521730, 119067, 258720, 511071, 232106, 2252, 445560, 289845, 444310, 5670, 157904, 68280, 32490, 304343, 257400, 150126, 88970, 170200, 287424, 176562, 132362, 543102, 451820, 273070, 313116, 536360, 557136, 552825, 137710, 453751, 492156, 37696, 457250, 150705, 515040, 495155, 189486, 400435, 193104, 57909, 437138, 597203, 343200, 263839, 261870, 565011, 453000, 470085, 556914, 420044, 254752, 486591, 120170, 611000, 339660, 315695, 284282, 59040, 446600, 69104, 47586, 457441, 533820, 585603, 432290, 540764, 447408, 451250, 482646, 118503, 380568, 523957, 378000, 97174, 445560, 588690, 390544, 119380, 139920, 102557, 315810, 279243, 58240, 299988, 59064, 215405, 593768, 361845, 462536, 414080, 9720, 126555, 260000, 182280, 644176, 119499, 181158, 136240, 334560, 482895, 357294, 161455, 400620, 404532, 137034, 333489, 588968, 270655, 53280, 586293, 373412, 640902, 612380, 542839, 288288, 625217, 22916, 145125, 311636, 354748, 568164, 80801, 214880, 619029, 661540, 310082, 342000, 385655, 578984, 101676, 209840, 454740, 20700, 138891, 246352, 640332, 176276, 271745, 396720, 273224, 178688, 400527, 457100, 366623, 685854, 249565, 106304, 524520, 626928, 71407, 193992, 319759, 106500, 538938, 121752, 407123, 90678, 673530, 630796, 504051, 10052, 31636, 419760, 25956, 126350, 229191, 215752, 540850, 487872, 623039, 343616, 180063, 573780, 8772, 614880, 241157, 291398, 122745, 33120, 19162, 28782, 231307, 629000, 686907, 79394, 133740, 475416, 318860, 681098, 202437, 645524, 161784, 510750, 260597, 78208, 154365, 704236, 169875, 120960, 371687, 213756, 610236, 386080, 321142, 505206, 419650, 71052, 423045, 111070, 566046, 747264, 647498, 42350, 437157, 40144, 238857, 620748, 134850, 511384, 776223, 22562, 179949, 32760, 178068, 225216, 244296, 133280, 609160, 774210, 336049, 167056, 289563, 445560, 762524, 623304, 513071, 560564, 213855, 345464, 584201, 420546, 470611, 177600, 40851, 319998, 153373, 283008, 103040, 800358, 707739, 442784, 67956, 197640, 1622, 697508, 679668, 326414, 117360, 49776, 270427, 519430, 271908, 128740, 49260, 138918, 451827, 771264, 468600, 517076, 285315, 386676, 820710, 478080, 660645, 39104, 455651, 318588, 368235, 237424, 468720, 86314, 668683, 568680, 398634, 136404, 375978, 806020, 774865, 626040, 212597, 275600, 352335, 5950, 258704, 96276, 13648, 207522, 380475, 60776, 114838, 841698, 595287, 43000, 705159, 810280, 64725, 26784, 704975, 19052, 231489, 815052, 112101, 96570, 295269, 783056, 485388, 455354, 252875, 746352, 346415, 464462, 154704, 297440, 172676, 465696, 472405, 111384, 799155, 87714, 610256, 120768, 614299, 38270, 435699, 115960, 292011, 194892, 225540, 665728, 730158, 811792, 853151, 793800, 875772, 389664, 457821, 663536, 338470, 572592, 752810, 128936, 449046, 548730, 368044, 782496, 31955, 874698, 828990, 850048, 810628, 694008, 653409, 152720, 742326, 501568, 251979, 823284, 881525, 535228, 380997, 704352, 830526, 501270, 857451, 650536, 736137, 766814, 211310, 348192, 672766, 820750, 730542, 580920, 629529, 464406, 344195, 363440, 387450, 681120, 781275, 830448, 235352, 733400, 801693, 736848, 36214, 872910, 380090, 22944, 627792, 117834, 308798, 830400, 658285, 557960, 575874, 324868, 715065, 826896, 817115, 65824, 528105, 272570, 142737, 200232, 172221, 203566, 973050, 72224, 922288, 524208, 542366, 465500, 611163, 702130, 336186, 738984, 656995, 912050, 141141, 36556, 491533, 282150, 671898, 610080, 53622, 321062, 88555, 891420, 820531, 180638, 763236, 512000][0m
+[92m[*] 248121629[0m

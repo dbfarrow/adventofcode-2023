@@ -11,10 +11,22 @@ class AOC(__AOC):
         super().__init__(day=-1) # <----- fill in day here
 
     def A(self):
-        return None
+       
+        answer = 0
+        if self.cmdline.testing:
+            expected = -1
+            assert answer == expected, f'Expected {expected}, got {answer}'
+        return answer
+
 
     def B(self):
-        return None
+        
+        answer = 0
+        if self.cmdline.testing:
+            expected = -1
+            assert answer == expected, f'Expected {expected}, got {answer}'
+        return answer
+
 
 if __name__ == "__main__":
     AOC().run()
