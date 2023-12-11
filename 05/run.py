@@ -68,27 +68,30 @@ class AOC(__AOC):
         ranges, maps = self.get_input()
         seeds = []
         total = 0
+#       ranges = [ (ranges[i], ranges[i]+ranges[i+1]) for i in range(0, len(ranges), 2) ]
+#       log.info(ranges)
         for i in range(0, len(ranges), 2):
             total += ranges[i+1]
-#           for j in range(ranges[i+1]):
-#               seeds.append(ranges[i]+j)
+            for j in range(ranges[i+1]):
+                seeds.append(ranges[i]+j)
 
         maps = maps.values()
             
-        log.info(f'there are {total} seeds')
-        return
+#       log.info(f'there are {total} seeds')
+#       return
 
         locs = {}
-        for seed in seeds:
-            src = seed
-            for m in maps:
-                dest = self.src2dest(src, m)
-#               log.info(f'src: {src} -> dest: {dest}')
-                src = dest 
-            locs[seed] = dest
-#           log.info(' ') 
-#       log.info(locs)
-        answer = min(locs.values())
+        for i in range(100000):
+            for seed in seeds:
+                src = seed
+                for m in maps:
+                    dest = self.src2dest(src, m)
+    #               log.info(f'src: {src} -> dest: {dest}')
+                    src = dest 
+                locs[seed] = dest
+    #           log.info(' ') 
+    #       log.info(locs)
+            answer = min(locs.values())
 
         if self.cmdline.testing:
             assert answer == 46, f'Expected 46, got {answer}'

@@ -59,7 +59,8 @@ class hand:
             or (self.counts[4] == 1 and self.jacks == 1) \
             or (self.counts[3] == 1 and self.jacks == 2) \
             or (self.counts[2] == 1 and self.jacks == 3) \
-            or (self.counts[1] == 1 and self.jacks == 4):
+            or (self.counts[1] == 1 and self.jacks == 4) \
+            or (self.jacks == 5):
             self.rank = 7                                   
 
         # -- four of a kind
