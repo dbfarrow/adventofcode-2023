@@ -127,7 +127,7 @@ class AOC(__AOC):
         p = c
         c = n
         step += 1
-
+        vertices = [ start, c ]
 
         while True:
 
@@ -142,12 +142,16 @@ class AOC(__AOC):
             if c == start: break
             step += 1
 
-        return step, smap
+            pipe = imap[c[1]][c[0]]
+            if pipe in 'LJ7F': vertices.append(c)
+
+        vertices.append(vertices[0])
+        return step, smap, vertices
 
     def A(self):
        
         imap = self.get_input()
-        step, smap = self.travel_circuit(imap)
+        step, smap, vertices = self.travel_circuit(imap)
 
         answer = step / 2
         if self.cmdline.testing:
@@ -157,28 +161,46 @@ class AOC(__AOC):
         return answer
 
 
+    def calc_area(self, steps, points):
+
+        # shoelace algorithm to determine the area of the polygon, including
+        # the edges
+        A = 0
+        for i in range(len(points)-1):
+            A += (points[i][1] + points[i+1][1]) * (points[i][0] - points[i+1][0])
+#           log.info(f'pn: {points[i]}, pn+1: {points[i+1]}, xp1: {xp1}, xp2:{xp2}, A: {A}')
+        A = int(A/2)
+        log.info(f'A: {A}')
+        return A
+
     def B(self):
         
         imap = self.get_input()
-        step, smap = self.travel_circuit(imap)
+        steps, smap, points = self.travel_circuit(imap)
 
-        self.print_map(smap)
-        total = 0
-        for y in range(len(smap)):
-            inside = False
-            for x in range(len(smap[y])):
-                loc = smap[y][x]
-                if loc and loc != '-': 
-                    inside = not inside
-                    log.info(f'inside state changing at ({x},{y}): {inside}')
-                elif inside and loc != '-': 
-                    log.info(f'({x},{y}) is inside')
-                    total += 1
+        # reverse the steps so they are ordered counter clockwise or we'll 
+        # get a negative result
+        A = self.calc_area(steps, points)
+        if A < 0:
+            points.reverse()
+            A = self.calc_area(steps, points)
 
-        answer = total
+        # count the number of squares on the edge
+        b = steps
+        log.info(f'b: {b}')
+        
+        # Pick's theorem says A = i + b/2 - 1 
+        # where A is the area of the polygon, i is the number of interior vertices, and
+        # b is the number of edge vertices. We need i. A was calculated above
+        # using the shoestring theorem
+        #
+        # i = A - b/2 + 1
+        i = A - int(b/2) + 1
+        log.info(f'i: {i}')
+
+        answer = i
         if self.cmdline.testing:
-            self.print_map(smap)
-            expected = 4
+            expected = 8
             assert answer == expected, f'Expected {expected}, got {answer}'
         return answer
 
